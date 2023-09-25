@@ -1,6 +1,6 @@
 {
-  "name": "ANGULAR PWA",
-  "short_name": "Angular PWA",
+  "name": "consigna-angular",
+  "short_name": "consigna-angular",
   "theme_color": "#FEA8B1",
   "background_color": "#FEA8B1",
   "display": "standalone",

@@ -1,0 +1,12 @@
+ng add @angular/pwa --project <project-name>
+
+Recomendacion: 
+en caso de romper, borrar el package-lock.json y node modules y luego correr: 
+npm install --save
+
+ejemplo: 
+ng add @angular/pwa --project portafolio-web
+
+- cuando se buildea cambiar en el index.html:   <base href="/"> a   <base href="./">
+- Para cambiarlo hay que agregar en angular.json: dentro de projects -> architect -> build ->options -> baseHref": "./"
+- en el buscador del borwser te genera un icono de instalar la aplicacion: L instala en modo standalone
